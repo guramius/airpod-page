@@ -1,0 +1,714 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    background: url("../img/Maskkk.png") no-repeat right top ;
+    background-size: 86rem 80rem;
+}
+/* footer 2 */
+.footer2{
+    display: none;
+}
+
+/* headerr (a , nav , ul(nav) ,li) */
+
+/* footer 4 */
+.footer4{
+    display: none;
+}
+
+/* ნავიგაცია */
+.headerr{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    /* margin-top: 4.4rem; */
+    margin-left: 10rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.headerr h1{
+    font-size: 4.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+.nav{
+    display: flex;
+    gap: 3rem;
+    width: 67.2rem;
+    text-transform: capitalize;
+    
+}
+.nav li a{
+    color: black;
+}
+.nav li a:hover{
+    color: tomato;
+}
+
+.lia{
+    color:rgb(0, 0, 0);
+    border: 0.1rem solid #707070;
+    border-radius: 3rem;
+    padding: 1.5rem 3.9rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* box1 (h2 , p , a)  */
+
+.box1{
+    padding-left: 9.9rem;
+    width: 54.4rem;
+    margin-top: 10rem;
+    
+}
+.box1 h2{
+    font-size: 4.4rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 6rem;
+}
+.box1 p{
+    line-height: 2.5rem;
+    padding: 3.9rem 0 5.5rem 0;
+}
+.box1 a {
+    background: linear-gradient(to left,#72A1FF,#AA9BFF);
+    color: rgb(255, 255, 255);
+    border-radius: 3rem;
+    padding: 1.5rem 3.9rem;
+    border: none;
+}
+
+/* center{მთავარი გვერდი ,ბექგრაუნდი რამოდენიმე სექცია.}(ამ სექციაში მყოფი კლასები :"grad-box(h3 , p) img2(ერთი სურათი) title(h3) section1{mini-box1(img , h3 , p)}*/
+.center{
+    background: url("../img/1121.png") no-repeat ;
+    margin-top: 30rem;
+    width: 100%;
+    background-size: 100%;
+    padding-bottom: 20rem;
+    
+ }
+.grad-box{
+    margin: auto;
+    text-align: center;
+    width: 54.4rem;
+    padding-top: 14rem;
+    line-height: 2.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.grad-box h3{
+    font-size: 2.4rem;
+    margin-bottom: 5rem;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.title h3{
+    margin: -8rem 8.9rem 3.25rem 11.47rem;
+    font-size: 4rem;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+
+}
+.mini-box1 h3{
+    font-size: 2.4rem;
+    font-family: 'Poppins' , sans-serif;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+}
+.mini-box1{
+   
+    text-align: center; 
+    width: 33rem;
+ 
+    border-radius: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+.mini-box1:hover{
+    
+    
+    background-image: linear-gradient(to top,#72A1FF,#C898FF) ;
+    background-repeat: no-repeat;
+    background-size:  100% 1.5rem ;
+    background-color: white;
+}
+
+.mini-box1 img{
+    padding: 4rem 0 3rem 0;
+
+}
+.mini-box1 p{
+    padding: 4rem 2rem;
+}
+
+/* [FAQ] sectopn3{topp(h3 , p)} borderebi{border(svg cod , p )} */
+
+.topp{
+    text-align: center;
+}
+.topp h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+}
+.topp p{
+    margin: auto;
+    width: 70rem;
+    margin-bottom: 4rem;
+}
+.borederebi{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+.border{
+    display: flex;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+/* სამკუთხედები და რელატივი რომაა გამოყენებული ის ადგილი */
+.width_m{
+    width: 70rem;
+}
+.blackairpods img{
+    position: relative;
+    width: 41rem;
+    bottom: 60rem;
+    left: 15rem;
+    background-color: white;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+.rectangle{
+    position: relative;
+    bottom: 126rem;
+    left: 49rem;
+    
+}
+.b_ottom{
+    align-self: center;
+    height: 90rem;
+}
+.rectangle_text{
+    display: flex;
+    margin-top: 18rem;
+    
+   
+}
+.rectangle_text p{
+    align-items: center;
+    width: 40rem;
+}
+.only{
+    display: flex;
+     flex-direction: column;
+ 
+    position: relative;
+    left: 10rem;
+    top: 30rem;
+    line-height: 3rem;
+}
+.only h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins' , sans-serif;
+}
+.only p{
+    margin-bottom: 1rem;
+}
+.dolar {
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.button1{
+    background: linear-gradient(to left,#72A1FF,#AA9BFF);
+    color: rgb(255, 255, 255);
+    border-radius: 3rem;
+    padding: 1.5rem 3.9rem;
+    border: none;
+    width: 20rem;
+}
+.dolar section{
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-weight: none;
+    margin-bottom: 3rem;
+}
+.dolar p{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0 0 0 2rem;
+}
+
+/* 5 სურათი  */
+
+.img_6{
+    display: flex;
+
+    margin-bottom: 4rem;
+}
+.img_size{
+    width: 37.8rem;
+    
+}
+/* form-ის ბორდერები */
+.input_lable{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.input_lable input{
+    width: 40rem;
+    padding: 2rem 0;
+    border: 0.2rem solid gray;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+.coment_1{
+    margin-top: 3rem;
+}
+.coment_1 label{
+    padding-left: 26rem;
+}
+.coment_1 textarea{
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    resize: none;
+    border: 0.2rem solid gray;
+    border-radius: 0.5rem;
+}
+/* ბოლო სურათები */
+.img_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pirveli{
+    width: 40rem;
+}
+.mesame{
+    margin-top: 10rem;
+    height: 20rem;
+}
+.copy p{
+    margin: 2rem 0 2rem 3rem;
+}
+.meore{
+    margin-right: 12rem;
+}
+.img_link{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 5rem;
+    
+}
+.img_link :hover{
+    transform: translateY(-1rem);
+    border-radius: 3rem;
+}
+
+/* damteni */
+.damteni img{
+    position: relative;
+    bottom: 15rem;
+    width: 15rem;
+    left: 10rem;
+}
+
+/* რესფონსივი  iphone 6/7/8 */
+
+@media only screen and (min-width: 414px) and (max-width: 800px) {
+    html{
+        font-size: 6px;
+    }
+    
+    .headerr{
+        display: block;
+        
+    }
+    .headerr h1{
+        margin-bottom: 15px;
+    }
+    .nav li a{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    }
+    .nav li:hover{
+        color: tomato;
+    }
+
+    /* yolifrer */
+    .center{
+        background: none;
+        
+    }
+    .title{
+        text-align: center;
+        margin: 80px 0 40px 0;
+    }
+    .grad-box   {
+        padding-top: 5rem;
+        background-image: url("../img/res.png");
+        width: 100%;
+        height: 200px;
+    }
+    .img2{
+        display: none;
+    }
+    .mini-box1:hover{
+        background: linear-gradient(to left,#72A1FF,#AA9BFF);
+    }
+    .section1{
+        background-image: url("../img/Path\ 84.png");
+        background-size: 100%;
+        padding: 50px 0;
+    }
+    .damteni img{
+        bottom: 160px;
+        left: 10px;
+    }
+    .section3{
+        position: relative;
+        bottom: 15rem;
+    }
+    .b_ottom{
+        display: none;
+    }
+    .img_6{
+        display: none;
+    }
+    .coment_1 textarea{
+       width: 250px;
+       height: 150px;
+    }
+    .img_bottom{
+        display: none;
+    }
+    .only{
+        background-image: url("../img/background.png");
+        background-size: 100%;
+        top: -100px;
+        padding-bottom: 5px;
+    }
+    .dolar{
+        padding-top: 20px;
+    }
+    .button1{
+        position: relative;
+        margin: 80px  0 0 200px;
+    }
+    .point{
+        display: none;
+    }
+    .footer2{
+        display: block;
+    }
+    .footer_3{
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+     .hmm{
+        position: relative;
+        top: 20px;
+    }  
+    .footer_width{
+        width: 100px;
+        
+    }
+    .copy{
+        margin: 10px 0 0 120px;
+        /* text-align: center; */
+    }
+    .copy p{
+        margin-left: 30px;
+    }
+    .img_link img{
+        width: 25px;
+        height: 25px;
+      
+    }
+    .img_link{
+        margin-left: 40px;
+    }
+    
+}    
+
+/* რესფონსივი ipad pro */
+
+@media only screen and (min-width: 801px) and (max-width: 1024px){
+    html{
+        font-size: 8px;
+    }
+    
+    .headerr{
+        display: block;
+        
+    }
+    .headerr h1{
+        margin-bottom: 15px;
+    }
+    .nav li a{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    }
+    .nav li:hover{
+        color: tomato;
+    }
+    /* yolifer */
+    .center{
+        background: none;
+        
+    }
+    .grad-box   {
+        padding-top: 10rem;
+        background-image: url("../img/res.png");
+        width: 100%;
+        height: 250px;
+    }
+    .img2{
+        display: none;
+    }
+    .section1{
+        background-image: url("../img/Path\ 84.png");
+        background-size: 100%;
+        padding: 50px 0;
+    }
+    .img_6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ipad:hover{
+        opacity: 0.7;
+        transform: translateY(-1rem);
+
+        
+    }
+    /* damteni */
+    .damteni img{
+        bottom: 200px;
+        left: 10px;
+        width: 70px;
+    }
+    /* FAQ */
+    .section3{
+        position: relative;
+        bottom: 15rem;
+        font-size: 1.8rem;
+    }
+    .only{
+        position: relative;
+        top: 18rem;
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 413px){
+    html{
+        font-size: 4px;
+    }
+    .headerr{
+        display: none;
+    }
+    .img_6{
+        display: none;
+    }
+    .coment_1{
+        display: none;
+    }
+    .grad-box   {
+        padding-top: 10rem;
+        background-image: url("../img/res.png");
+        width: 100%;
+        height: 250px;
+    }
+    .section1{
+        background-image: url("../img/Path\ 84.png");
+        background-size: 100%;
+        padding: 50px 0;
+    }
+    .b_ottom{
+        display: none;
+    }
+    .only{
+        background-image: url("../img/background.png");
+        background-size: 100%;
+        top: -50px;
+        padding-bottom: 5px;
+    }
+    .img2{
+        display: none;
+    }
+    .img_bottom{
+        display: none;
+    }
+    .footer4{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .last_width{
+        width: 20px;
+    }
+    /* damteni */
+    .damteni img{
+        bottom: 100px;
+        left: 10px;
+        width: 70px;
+    }
+}
+
+
+/* singin */
+
+.aligne-center{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/6\ \(2\).jpg") ;
+    background-size: 100%;
+    height: 100vh;
+    
+    /* background-repeat: no-repeat; */
+    
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    padding-bottom:40px ;
+    border-radius: 3%;
+    margin:auto;
+    background: rgba(211, 211, 211, 0.925);
+    
+    
+}
+.title{
+    margin-bottom: 25px;
+    display: flex;
+    color: tomato;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.box-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    
+}
+.mama{
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    padding: 8px;
+    margin-top: 10px ;
+    text-transform: capitalize;
+}
+.mama:hover{
+    background: rgba(128, 128, 128, 0.432);
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.gender label{
+    
+    margin-right: 70px;
+
+}
+.gender label:last-child{
+    margin-right: 0px;
+}
+.check input{
+    margin-right: 95px;
+}
+.check input:last-child{
+    margin-right: 0px;
+}
+
+.gender-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    
+}
+.file input{
+    display: none;
+    /* margin: 20px 0 40px 0; */
+}
+
+span{
+    color:red;
+}
+
+.file label:hover{
+    color: tomato;
+    text-transform: capitalize;
+    
+}
+
+.flex-but{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.flex-but button{
+    background: none;
+    border: none;
+    width: 90px;
+    height: 30px;
+    /* padding: 8px 20px; */
+    background: tomato;
+    border: 1px solid tomato;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+
+}
+.flex-but button:hover{
+    color:rgb(255, 255, 0);
+    text-transform: capitalize;
+    font-size: 15px;
+
+}
+
+.flex-but button:active{
+    border: 1px solid rgba(46, 45, 45, 0.685);
+    background: grey;
+    color: white;
+    text-transform: none;
+
+}
+
+.choos{
+    margin-top: 20PX;
+}
